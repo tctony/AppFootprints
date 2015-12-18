@@ -14,7 +14,7 @@
 		EA7EE0CF1C23F7DD00433F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7EE0CE1C23F7DD00433F13 /* Assets.xcassets */; };
 		EA7EE0D21C23F7DD00433F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7EE0D01C23F7DD00433F13 /* LaunchScreen.storyboard */; };
 		EA7EE0DC1C23FB5600433F13 /* QHAppFootprints.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7EE0DB1C23FB5600433F13 /* QHAppFootprints.m */; };
-		EA7EE0E01C23FDB200433F13 /* FootprintMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7EE0DF1C23FDB200433F13 /* FootprintMap.m */; };
+		EA7EE0E81C2442DA00433F13 /* FootprintMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7EE0E71C2442DA00433F13 /* FootprintMap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		EA7EE0D31C23F7DD00433F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA7EE0DA1C23FB5600433F13 /* QHAppFootprints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QHAppFootprints.h; path = ../AppFootprints/QHAppFootprints.h; sourceTree = "<group>"; };
 		EA7EE0DB1C23FB5600433F13 /* QHAppFootprints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QHAppFootprints.m; path = ../AppFootprints/QHAppFootprints.m; sourceTree = "<group>"; };
-		EA7EE0DE1C23FDB200433F13 /* FootprintMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FootprintMap.h; path = ../AppFootprints/FootprintMap.h; sourceTree = "<group>"; };
-		EA7EE0DF1C23FDB200433F13 /* FootprintMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FootprintMap.m; path = ../AppFootprints/FootprintMap.m; sourceTree = "<group>"; };
+		EA7EE0E61C2442DA00433F13 /* FootprintMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FootprintMap.h; path = ../AppFootprints/FootprintMap.h; sourceTree = "<group>"; };
+		EA7EE0E71C2442DA00433F13 /* FootprintMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FootprintMap.m; path = ../AppFootprints/FootprintMap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,18 +91,10 @@
 			children = (
 				EA7EE0DA1C23FB5600433F13 /* QHAppFootprints.h */,
 				EA7EE0DB1C23FB5600433F13 /* QHAppFootprints.m */,
-				EA7EE0DD1C23FB6C00433F13 /* Gen */,
+				EA7EE0E61C2442DA00433F13 /* FootprintMap.h */,
+				EA7EE0E71C2442DA00433F13 /* FootprintMap.m */,
 			);
 			name = AppFootprints;
-			sourceTree = "<group>";
-		};
-		EA7EE0DD1C23FB6C00433F13 /* Gen */ = {
-			isa = PBXGroup;
-			children = (
-				EA7EE0DE1C23FDB200433F13 /* FootprintMap.h */,
-				EA7EE0DF1C23FDB200433F13 /* FootprintMap.m */,
-			);
-			name = Gen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +188,7 @@
 				EA7EE0CA1C23F7DD00433F13 /* ViewController.m in Sources */,
 				EA7EE0C71C23F7DD00433F13 /* AppDelegate.m in Sources */,
 				EA7EE0DC1C23FB5600433F13 /* QHAppFootprints.m in Sources */,
-				EA7EE0E01C23FDB200433F13 /* FootprintMap.m in Sources */,
+				EA7EE0E81C2442DA00433F13 /* FootprintMap.m in Sources */,
 				EA7EE0C41C23F7DD00433F13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

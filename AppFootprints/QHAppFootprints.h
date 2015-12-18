@@ -8,11 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
-#ifndef HLogFootprint
-#   define HLogFootprint(_msg, _info) { static NSString *staticNSStringChekcer = _msg; staticNSStringChekcer; } \
-        if (_info) { NSLog(@"%@ %@", _msg, _info); } else { NSLog(@"%@", _msg); } \
-        [QHAppFootprints addFootprint:[QHFootprint footprint:__FILE__ line:__LINE__ message:_msg info:_info]]
+
+#ifndef LogFootprintConsoleLog
+#   define LogFootprintConsoleLog NSLog
 #endif
+
+#define LogFootprint(_msg, _info) \
+    { static NSString *staticNSStringChekcer = _msg; staticNSStringChekcer; } \
+    if (_info) { LogFootprintConsoleLog(@"%@ %@", _msg, _info); } else { LogFootprintConsoleLog(@"%@", _msg); } \
+    [QHAppFootprints addFootprint:[QHFootprint footprint:__FILE__ line:__LINE__ message:_msg info:_info]]
 
 @interface QHFootprint : NSObject
 + (instancetype)footprint:(char *)file

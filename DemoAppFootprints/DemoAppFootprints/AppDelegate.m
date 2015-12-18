@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#define XLog NSLog
+#define LogFootprintConsoleLog XLog
+
 #import "QHAppFootprints.h"
 
 
@@ -21,35 +24,34 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
     _activeCount = 0;
 
-    HLogFootprint(@"didFinishLaunchingWithOptions", nil);
+    LogFootprint(@"didFinishLaunchingWithOptions", nil);
 
     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    HLogFootprint(@"applicationWillResignActive", nil);
+    LogFootprint(@"applicationWillResignActive", nil);
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-    HLogFootprint(@"applicationDidEnterBackground", nil);
+    LogFootprint(@"applicationDidEnterBackground", nil);
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    HLogFootprint(@"applicationWillEnterForeground", nil);
+    LogFootprint(@"applicationWillEnterForeground", nil);
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     _activeCount += 1;
 
     NSString *info = [NSString stringWithFormat:@"%d", (int)_activeCount];
-    HLogFootprint(@"applicationDidBecomeActive", info);
+    LogFootprint(@"applicationDidBecomeActive", info);
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    HLogFootprint(@"applicationWillTerminate", nil);
+    LogFootprint(@"applicationWillTerminate", nil);
 }
 
 @end
