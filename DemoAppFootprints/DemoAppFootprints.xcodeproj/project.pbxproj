@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA7EE0C41C23F7DD00433F13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7EE0C31C23F7DD00433F13 /* main.m */; };
+		EA7EE0C71C23F7DD00433F13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7EE0C61C23F7DD00433F13 /* AppDelegate.m */; };
+		EA7EE0CA1C23F7DD00433F13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7EE0C91C23F7DD00433F13 /* ViewController.m */; };
+		EA7EE0CD1C23F7DD00433F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7EE0CB1C23F7DD00433F13 /* Main.storyboard */; };
+		EA7EE0CF1C23F7DD00433F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7EE0CE1C23F7DD00433F13 /* Assets.xcassets */; };
+		EA7EE0D21C23F7DD00433F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7EE0D01C23F7DD00433F13 /* LaunchScreen.storyboard */; };
+		EA7EE0DC1C23FB5600433F13 /* QHAppFootprints.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7EE0DB1C23FB5600433F13 /* QHAppFootprints.m */; };
+		EA7EE0E01C23FDB200433F13 /* FootprintMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7EE0DF1C23FDB200433F13 /* FootprintMap.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA7EE0BF1C23F7DD00433F13 /* DemoAppFootprints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppFootprints.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7EE0C31C23F7DD00433F13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA7EE0C51C23F7DD00433F13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA7EE0C61C23F7DD00433F13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA7EE0C81C23F7DD00433F13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA7EE0C91C23F7DD00433F13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA7EE0CC1C23F7DD00433F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA7EE0CE1C23F7DD00433F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA7EE0D11C23F7DD00433F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA7EE0D31C23F7DD00433F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7EE0DA1C23FB5600433F13 /* QHAppFootprints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QHAppFootprints.h; path = ../AppFootprints/QHAppFootprints.h; sourceTree = "<group>"; };
+		EA7EE0DB1C23FB5600433F13 /* QHAppFootprints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QHAppFootprints.m; path = ../AppFootprints/QHAppFootprints.m; sourceTree = "<group>"; };
+		EA7EE0DE1C23FDB200433F13 /* FootprintMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FootprintMap.h; path = ../AppFootprints/FootprintMap.h; sourceTree = "<group>"; };
+		EA7EE0DF1C23FDB200433F13 /* FootprintMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FootprintMap.m; path = ../AppFootprints/FootprintMap.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA7EE0BC1C23F7DD00433F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA7EE0B61C23F7DD00433F13 = {
+			isa = PBXGroup;
+			children = (
+				EA7EE0C11C23F7DD00433F13 /* DemoAppFootprints */,
+				EA7EE0D91C23FB1D00433F13 /* AppFootprints */,
+				EA7EE0C01C23F7DD00433F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA7EE0C01C23F7DD00433F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EE0BF1C23F7DD00433F13 /* DemoAppFootprints.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA7EE0C11C23F7DD00433F13 /* DemoAppFootprints */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EE0C51C23F7DD00433F13 /* AppDelegate.h */,
+				EA7EE0C61C23F7DD00433F13 /* AppDelegate.m */,
+				EA7EE0C81C23F7DD00433F13 /* ViewController.h */,
+				EA7EE0C91C23F7DD00433F13 /* ViewController.m */,
+				EA7EE0CB1C23F7DD00433F13 /* Main.storyboard */,
+				EA7EE0CE1C23F7DD00433F13 /* Assets.xcassets */,
+				EA7EE0D01C23F7DD00433F13 /* LaunchScreen.storyboard */,
+				EA7EE0D31C23F7DD00433F13 /* Info.plist */,
+				EA7EE0C21C23F7DD00433F13 /* Supporting Files */,
+			);
+			path = DemoAppFootprints;
+			sourceTree = "<group>";
+		};
+		EA7EE0C21C23F7DD00433F13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EE0C31C23F7DD00433F13 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA7EE0D91C23FB1D00433F13 /* AppFootprints */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EE0DA1C23FB5600433F13 /* QHAppFootprints.h */,
+				EA7EE0DB1C23FB5600433F13 /* QHAppFootprints.m */,
+				EA7EE0DD1C23FB6C00433F13 /* Gen */,
+			);
+			name = AppFootprints;
+			sourceTree = "<group>";
+		};
+		EA7EE0DD1C23FB6C00433F13 /* Gen */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EE0DE1C23FDB200433F13 /* FootprintMap.h */,
+				EA7EE0DF1C23FDB200433F13 /* FootprintMap.m */,
+			);
+			name = Gen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA7EE0BE1C23F7DD00433F13 /* DemoAppFootprints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7EE0D61C23F7DD00433F13 /* Build configuration list for PBXNativeTarget "DemoAppFootprints" */;
+			buildPhases = (
+				EA7EE0E11C24092800433F13 /* Generate footprint map */,
+				EA7EE0BB1C23F7DD00433F13 /* Sources */,
+				EA7EE0BC1C23F7DD00433F13 /* Frameworks */,
+				EA7EE0BD1C23F7DD00433F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoAppFootprints;
+			productName = DemoAppFootprints;
+			productReference = EA7EE0BF1C23F7DD00433F13 /* DemoAppFootprints.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA7EE0B71C23F7DD00433F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tencent House";
+				TargetAttributes = {
+					EA7EE0BE1C23F7DD00433F13 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EA7EE0BA1C23F7DD00433F13 /* Build configuration list for PBXProject "DemoAppFootprints" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA7EE0B61C23F7DD00433F13;
+			productRefGroup = EA7EE0C01C23F7DD00433F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA7EE0BE1C23F7DD00433F13 /* DemoAppFootprints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA7EE0BD1C23F7DD00433F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7EE0D21C23F7DD00433F13 /* LaunchScreen.storyboard in Resources */,
+				EA7EE0CF1C23F7DD00433F13 /* Assets.xcassets in Resources */,
+				EA7EE0CD1C23F7DD00433F13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA7EE0E11C24092800433F13 /* Generate footprint map */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate footprint map";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python ../AppFootprints/GenFootprintMap.py";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7EE0BB1C23F7DD00433F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7EE0CA1C23F7DD00433F13 /* ViewController.m in Sources */,
+				EA7EE0C71C23F7DD00433F13 /* AppDelegate.m in Sources */,
+				EA7EE0DC1C23FB5600433F13 /* QHAppFootprints.m in Sources */,
+				EA7EE0E01C23FDB200433F13 /* FootprintMap.m in Sources */,
+				EA7EE0C41C23F7DD00433F13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA7EE0CB1C23F7DD00433F13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA7EE0CC1C23F7DD00433F13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA7EE0D01C23F7DD00433F13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA7EE0D11C23F7DD00433F13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA7EE0D41C23F7DD00433F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA7EE0D51C23F7DD00433F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA7EE0D71C23F7DD00433F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoAppFootprints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.house.DemoAppFootprints;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA7EE0D81C23F7DD00433F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoAppFootprints/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.house.DemoAppFootprints;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA7EE0BA1C23F7DD00433F13 /* Build configuration list for PBXProject "DemoAppFootprints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7EE0D41C23F7DD00433F13 /* Debug */,
+				EA7EE0D51C23F7DD00433F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7EE0D61C23F7DD00433F13 /* Build configuration list for PBXNativeTarget "DemoAppFootprints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7EE0D71C23F7DD00433F13 /* Debug */,
+				EA7EE0D81C23F7DD00433F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA7EE0B71C23F7DD00433F13 /* Project object */;
+}
