@@ -1,4 +1,4 @@
-# 依赖工具
+# 环境
 * Xcode
 * Python 2.7
 
@@ -18,5 +18,9 @@
 
 * 运行App一段时间后，提取footprint，解码footprint
 `python path/to/DecodeFootprint.py 'footprint string'`
+
+# 截图
+![runtime console log](exampleimages/1.jpeg)
+![deocded footprints](exampleimages/2.jpeg)
 
 # TODO
