@@ -5,7 +5,7 @@
 # 使用步骤
 * 将AppFootprints文件夹添加到代码目录中
 
-* 配置config文件
+* 配置appfootprint.conf文件
 
 * 在build phrase中添加run script来生成footprint map
   `python path/to/GenFootprintMap.py`
