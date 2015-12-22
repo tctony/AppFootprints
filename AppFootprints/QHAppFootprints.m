@@ -91,8 +91,9 @@ static NSLock *lock = nil;
 
 + (NSString *)encodeString:(NSString *)string
 {
-    string = [string stringByReplacingOccurrencesOfString:@"_" withString:@"\\-"];
-    string = [string stringByReplacingOccurrencesOfString:@"," withString:@"\\'"];
+    string = [string stringByReplacingOccurrencesOfString:@"," withString:@"%%01"];
+    string = [string stringByReplacingOccurrencesOfString:@"_" withString:@"%%02"];
+    string = [string stringByReplacingOccurrencesOfString:@":" withString:@"%%03"];
     return string;
 }
 

@@ -28,6 +28,8 @@
 
     LogFootprint(@"didFinishLaunchingWithOptions", nil);
 
+    LogFootprint(@"test special chars", @",_:");
+
     return YES;
 }
 
